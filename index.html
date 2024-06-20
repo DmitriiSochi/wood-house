@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <img class="header__img" src="img/отель.jpg">
+        <form class="header__form checkForNomer">
+            <p class="checkForNomer__text-main">Узайте свободен ли домик</p>
+            <label class="checkForNomer__label" for="checkForNomer__dete-in">C:</label>
+            <input class="checkForNomer__dete" type="date" id="checkForNomer__dete-in" name="trip-start"
+                min="2024-01-01" max="2025-12-31" />
+            <label class="checkForNomer__label" for="checkForNomer__dete-out">По:</label>
+            <input class="checkForNomer__date" type="date" id="checkForNomer__dete-out" name="trip-start"
+                min="2024-01-01" max="2025-12-31" />
+            <input class="checkForNomer__phone-namber" type="text" id="phone-namber" placeholder="Ваш номер для связи">
+            <input class="checkForNomer__button" type="button" value="Отправить запрос" />
+        </form>
+        <ul class="header__socseti">
+            <li class="header__socseti-ico>"></li>
+            <li class="header__socseti-ico>"></li>
+            <li class="header__socseti-ico>"></li>
+        </ul>
+    </header>
+    <main class="main">
+    </main>
+    <footer class="footer">
+
+    </footer>
 </body>
+
 </html>
