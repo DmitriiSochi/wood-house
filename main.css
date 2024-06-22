@@ -1,3 +1,244 @@
-@media (max-width: 480px) {
+/* сброс стилей + */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-  };
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* конец блока СБРОС СТИЛЕЙ - */
+/* блок ПЕРЕМЕННЫЕ + */
+:root {
+    /* Цвета */
+    --system-color-bondiBlue: rgb(0 58 71);
+    --system-color-canaryYellow: rgb(255 239 0);
+    --system-color-caribbeanGreen: rgb(0 204 153);
+
+    /* Семейство шрифтов*/
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Roboto", sans-serif;
+    --third-family: "Inter", sans-serif;
+
+    /* Размеры шрифта */
+    --system-fontSize-jumbo: 3.052rem;
+    --system-fontSize-large: 1.563rem;
+    --system-fontSize-small: 0.8rem;
+
+    /* Вес шрифта */
+    --system-fontWeight-bold: 700;
+    --system-fontWeight-medium: 400;
+    --system-fontWeight-light: 200;
+
+    /* Длительность */
+    --system-duration-presto: 60ms;
+    --system-duration-allegro: 125ms;
+    --system-duration-andante: 500ms;
+
+    /* Повышение */
+    --system-boxShadow-slightlyRaised: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    --system-boxShadow-floatingBox: 0 0 30px 0 rgb(0 0 0 / 35%);
+}
+
+/* Конц блока ПЕРЕМЕННЫЕ - */
+@media (max-width: 480px) {
+    .header {}
+
+    .header__img {
+        width: 360px;
+        height: 257px;
+    }
+
+    .header__form {
+        border-radius: 0 0 20px 20px;
+        width: 360px;
+        height: 235px;
+        background: #171717;
+        text-align: center;
+    }
+
+    .checkForNomer {
+        
+    }
+
+    .checkForNomer__text-main {
+        
+        font-family: var(--third-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: rgba(245, 245, 245, 0.8)
+    }
+
+    .checkForNomer__label {
+        font-family: var(--third-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: rgba(245, 245, 245, 0.8)
+    }
+
+    .checkForNomer__date {
+        box-sizing: border-box;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 8px 16px;
+        width: 295px;
+        height: 40px;
+        box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background: #fff;
+        margin-top: 6px;
+    }
+
+    .checkForNomer__phone-namber {
+        box-sizing: border-box;
+        /* border: 1px solid #e0e0e0; */
+        border-radius: 8px;
+        padding: 8px 16px;
+        width: 342px;
+        height: 40px;
+        box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background: #fff;
+        margin-top: 6px;
+    }
+
+    .checkForNomer__button {
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 14px 24px;
+        width: 342px;
+        height: 60px;
+        box-shadow: 4px 4px 3px 0 rgba(0, 0, 0, 0.25);
+        background: #fff;
+        margin-top: 6px;
+    }
+}
+
+;
