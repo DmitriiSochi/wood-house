@@ -11,6 +11,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     </style>
+    <script src="foto-gallery.js"></script>
 </head>
 
 <body>
@@ -59,7 +60,7 @@
                 цены
                 на бронь не меняются.Расчетный час с 11:00ч. Время приезда и отъезда оговариваются заранее.
                 Дополнительное
-                место 500р.Реквизиты карты МИР (Т-банк) 2200 7004 3754 9081 Бубенин Дмитрий Калукович.</p>
+                место 500р. Реквизиты карты МИР (Т-банк) 2200 7004 3754 9081 Бубенин Дмитрий Калукович.</p>
         </section>
         <section class="photo-aboutAs main__photo-aboutAs">
             <p class="aboutAs__label-english">OUR PHOTO.</p>
@@ -79,7 +80,7 @@
                 </div>
             </div>
         </section>
-        <section class="more-aboutAs main__more-about-as">
+        <section class="more-aboutAs main__more-aboutAs">
             <p class="aboutAs__label-english">more info about us.</p>
             <p class="aboutAs__title">Побольше о нас.</p>
             <p class="aboutAs__text">Гостевой дом представляют собой небольшой одноэтажный дом (30м2) с
@@ -87,10 +88,10 @@
                 холодильник, кондиционер, гладильная доска с утюгом, в кухонной зоне есть электрический чайник,
                 микроволновка, холодильник и посуда, в санузле есть стиральная машина и фен (полотенце, мыло). Гостевой
                 дом охвачен сетью WiFi. Имеется открытая веранда с видом на Кавказские горы.</p>
-            <img class="more-about-as__photo" src="img/отель.jpg">
-            <img class="more-about-as__photo" src="img/отель.jpg">
+            <img class="more-aboutAs__photo" src="img/отель.jpg">
+            <img class="more-aboutAs__photo" src="img/отель.jpg">
         </section>
-        <section class="maim__price price">
+        <section class="price maim__price">
             <p class="aboutAs__label-english">our price.</p>
             <p class="aboutAs__title">Наши цены.</p>
             <table class="price__table">
@@ -110,9 +111,12 @@
                     <td class="price__table-td">3 500</td>
                     <td class="price__table-td">2 500</td>
                 </tr>
+                <tr price__table-tr>
+                    <td class="price__table-td" colspan="6">Дополнительное место 500руб</td>
+                </tr>
             </table>
         </section>
-        <section class="main__our-place our-place">
+        <section class="our-place main__our-place">
             <p class="aboutAs__label-english">our place.</p>
             <p class="aboutAs__title">О территории.</p>
             <p class="aboutAs__text">Территория гостевого дома предусматривает газоны и тропинки. Для снятия
@@ -122,7 +126,7 @@
             <img class="our-place__photo" src="img/отель.jpg">
             <img class="our-place__photo" src="img/отель.jpg">
         </section>
-        <section class="main__hikes hikes">
+        <!-- <section class="hikes main__hikes">
             <p class="aboutAs__label-english">hikes.</p>
             <p class="aboutAs__title">Активный отдых.</p>
             <p class="aboutAs__text">Любителям активного отдыха могу организовать поход по следующим маршрутам.</p>
@@ -130,18 +134,19 @@
             <p class="hikes__tur">Водопад Кейва</p>
             <p class="hikes__tur">Водопад Хрустальный</p>
             <img class="hikes__photo" src="img/отель.jpg">
-            <ul class="hikes__ul">
-                <li class="hikes__circle hikes__circle_select"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-                <li class="hikes__circle"></li>
-            </ul>
+            <div class="hikes__photo-point">
+                <div class="photo-point">
+                    <div class="photo-point__in photo-point__in-red"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                </div>
+            </div>
             <p class="hikes__about" Приглашаю вас отправиться в поход к одному из самых живописных мест в окрестностях
                 Красной поляны— Бзерпинскому карнизу и истоку реки Бзерпь. Мы полюбуемся водопадом, бегущим вниз по
                 скалам, а также сможем дойти до озера Малого или подняться на пик Бзерпи высотой около 2,5 тысяч метров.
@@ -151,18 +156,22 @@
             <img class="hikes__ico-price" src="img/IMAGE.png">
             <p class="price__hike">Стоимость тура 10 000р</p>
             <p class="price__hike-lable">за человека</p>
-        </section>
+        </section> -->
     </main>
     <footer class="footer">
         <img class="footer__photo" src="img/logo.png">
-        <p class="footer__label">О нас</p>
-        <p class="footer__label">Описание</p>
-        <p class="footer__label">Территория</p>
-        <p class="footer__label">Активный отдых</p>
-        <p class="footer__label">Контактный телефон</p>
-        <p class="footer__label">+7 918 302 07 08</p>
-        <p class="footer__label">Дмитрий</p>
-        <p class="footer__label">г.Сочи, сел.Казачий брод, ул. Краснофлотская д.57.</p>
+        <div class="footer__r">
+            <p class="footer__label">О нас</p>
+            <p class="footer__label">Описание</p>
+            <p class="footer__label">Территория</p>
+            <p class="footer__label">Активный отдых</p>
+        </div>
+        <div class="footer__r">
+            <p class="footer__label">Контактный телефон</p>
+            <p class="footer__label">+7 918 302 07 08</p>
+            <p class="footer__label">Дмитрий</p>
+            <p class="footer__label">г.Сочи, сел.Казачий брод, ул. Краснофлотская д.57.</p>
+        </div>
     </footer>
 </body>
 
