@@ -111,10 +111,10 @@ body {
     line-height: 1;
 }
 
-ol,
+/* ol,
 ul {
     list-style: none;
-}
+} */
 
 blockquote,
 q {
@@ -184,12 +184,10 @@ table {
         text-align: center;
     }
 
-    .checkForNomer {
-        
-    }
+    .checkForNomer {}
 
     .checkForNomer__text-main {
-        
+
         font-family: var(--third-family);
         font-weight: 500;
         font-size: 16px;
@@ -239,6 +237,60 @@ table {
         background: #fff;
         margin-top: 6px;
     }
+
+    .main__info-aboutAS {}
+
+    .info-aboutAS {
+        width: 333px;
+        height: 612px;
+    }
+
+    .info-aboutAS__label-english {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #e6b939;
+    }
+
+    .info-aboutAS__title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 120%;
+        color: #575445;
+    }
+
+    .info-aboutAS__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #575445;
+    }
+
+    .photo-aboutAs {
+        border-radius: 20px;
+        width: 360px;
+        height: 285px;
+    }
+
+    .photo-aboutAS__photo {
+        border-radius: 20px;
+        width: 360px;
+        height: 285px;
+    }
+
+    .foto-aboutAS__ul {}
+
+    .foto-aboutAS__circle {}
+
+    .foto-aboutAS__circle_select {
+        color: red;
+    }
+
 }
 
 ;
