@@ -21,24 +21,28 @@
             <label class="checkForNomer__label" for="checkForNomer__dete-in">C :</label>
             <input class="checkForNomer__date" type="date" id="checkForNomer__dete-in" name="trip-start"
                 min="2024-01-01" max="2025-12-31" />
-                <br>
+            <br>
             <label class="checkForNomer__label" for="checkForNomer__dete-out">По:</label>
             <input class="checkForNomer__date" type="date" id="checkForNomer__dete-out" name="trip-start"
                 min="2024-01-01" max="2025-12-31" />
             <input class="checkForNomer__phone-namber" type="text" id="phone-namber" placeholder="Ваш номер для связи">
             <input class="checkForNomer__button" type="button" value="Отправить запрос" />
         </form>
-        <ul class="header__socseti">
-            <li class="header__socseti-ico>"></li>
-            <li class="header__socseti-ico>"></li>
-            <li class="header__socseti-ico>"></li>
-        </ul>
+        <div class="header-foto__ico">
+            <div class="photo-point">
+                <div class="photo-point__in photo-point__in-red"></div>
+                <div class="photo-point__in"></div>
+                <div class="photo-point__in"></div>
+                <div class="photo-point__in"></div>
+                <div class="photo-point__in"></div>
+            </div>
+        </div>
     </header>
     <main class="main">
-        <section class="main__info-aboutAS info-aboutAS">
-            <p class="info-aboutAS__label-english">who are we?</p>
-            <p class="info-aboutAS__title">О нас.</p>
-            <p class="info-aboutAS__text">Уважаемые гости предлогаем Вам наш двухместный гостевой дом. Наш дом
+        <section class="info-aboutAs main__info-aboutAs">
+            <p class="aboutAs__label-english">who are we?</p>
+            <p class="aboutAs__title">О нас.</p>
+            <p class="aboutAs__text">Уважаемые гости предлогаем Вам наш двухместный гостевой дом. Наш дом
                 расположен в
                 15км от центра Адлера, между Красной поляной и Центральной частью Адлера., в сел.Казачий брод по улице
                 Краснофлотская д.57. Расстояние до моря 15км это 40 минут на транспорте. В 2км. от дома находится
@@ -57,25 +61,28 @@
                 Дополнительное
                 место 500р.Реквизиты карты МИР (Т-банк) 2200 7004 3754 9081 Бубенин Дмитрий Калукович.</p>
         </section>
-        <section class="main__photo-aboutAs photo-aboutAs">
-            <img class="photo-aboutAS__photo" src="img/отель.jpg">
-            <ul class="foto-aboutAS__ul">
-                <li class="foto-aboutAS__circle foto-aboutAS__circle_select"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-                <li class="foto-aboutAS__circle"></li>
-            </ul>
+        <section class="photo-aboutAs main__photo-aboutAs">
+            <p class="aboutAs__label-english">OUR PHOTO.</p>
+            <p class="aboutAs__title">Фотогалерея</p>
+            <img class="photo-aboutAs__img" src="img/отель.jpg" />
+            <div class="photo-aboutAs__point">
+                <div class="photo-point">
+                    <div class="photo-point__in photo-point__in-red"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                </div>
+            </div>
         </section>
-        <section class="main__more-about-as more-about-as">
-            <p class="more-about-as__label-english">more info about us.</p>
-            <p class="more-about-as__title">Побольше о нас.</p>
-            <p class="more-about-as__text">Гостевой дом представляют собой небольшой одноэтажный дом (30м2) с
+        <section class="more-aboutAs main__more-about-as">
+            <p class="aboutAs__label-english">more info about us.</p>
+            <p class="aboutAs__title">Побольше о нас.</p>
+            <p class="aboutAs__text">Гостевой дом представляют собой небольшой одноэтажный дом (30м2) с
                 лестницей на входе. Состоит из спальни, кухни гостиной и санузла. В кухни гостиной есть телевизор,
                 холодильник, кондиционер, гладильная доска с утюгом, в кухонной зоне есть электрический чайник,
                 микроволновка, холодильник и посуда, в санузле есть стиральная машина и фен (полотенце, мыло). Гостевой
@@ -84,8 +91,8 @@
             <img class="more-about-as__photo" src="img/отель.jpg">
         </section>
         <section class="maim__price price">
-            <p class="price__label-english">our price.</p>
-            <p class="price__title">Наши цены.</p>
+            <p class="aboutAs__label-english">our price.</p>
+            <p class="aboutAs__title">Наши цены.</p>
             <table class="price__table">
                 <tr class="price__table-tr">
                     <th class="price__table-label">Январь - Май</th>
@@ -106,9 +113,9 @@
             </table>
         </section>
         <section class="main__our-place our-place">
-            <p class="our-place__label-english">our place.</p>
-            <p class="our-place__title">О территории.</p>
-            <p class="our-place__text">Территория гостевого дома предусматривает газоны и тропинки. Для снятия
+            <p class="aboutAs__label-english">our place.</p>
+            <p class="aboutAs__title">О территории.</p>
+            <p class="aboutAs__text">Территория гостевого дома предусматривает газоны и тропинки. Для снятия
                 усталости воспользуйтесь беседкой, где можно посидеть и попить чай. Если проголодаетесь, приготовьте
                 шашлык самостоятельно или иные блюда на костре.
                 Преддомовая территория оборудована для парковки частного транспорта.</p>
@@ -116,9 +123,9 @@
             <img class="our-place__photo" src="img/отель.jpg">
         </section>
         <section class="main__hikes hikes">
-            <p class="hikes__label-english">hikes.</p>
-            <p class="hikes__title">Активный отдых.</p>
-            <p class="hikes__text">Любителям активного отдыха могу организовать поход по следующим маршрутам.</p>
+            <p class="aboutAs__label-english">hikes.</p>
+            <p class="aboutAs__title">Активный отдых.</p>
+            <p class="aboutAs__text">Любителям активного отдыха могу организовать поход по следующим маршрутам.</p>
             <p class="hikes__tur">Карниз Бзерпи</p>
             <p class="hikes__tur">Водопад Кейва</p>
             <p class="hikes__tur">Водопад Хрустальный</p>

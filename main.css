@@ -1,96 +1,7 @@
 /* сброс стилей + */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 article,
@@ -106,15 +17,6 @@ nav,
 section {
     display: block;
 }
-
-body {
-    line-height: 1;
-}
-
-/* ol,
-ul {
-    list-style: none;
-} */
 
 blockquote,
 q {
@@ -177,6 +79,7 @@ table {
     }
 
     .header__form {
+        margin: 0px;
         border-radius: 0 0 20px 20px;
         width: 360px;
         height: 235px;
@@ -184,10 +87,16 @@ table {
         text-align: center;
     }
 
+    .header-foto__ico {
+        position: relative;
+        top: -280px;
+        left: 160px;
+    }
+
     .checkForNomer {}
 
     .checkForNomer__text-main {
-
+        margin: 0px;
         font-family: var(--third-family);
         font-weight: 500;
         font-size: 16px;
@@ -238,14 +147,16 @@ table {
         margin-top: 6px;
     }
 
-    .main__info-aboutAS {}
+    .main {}
 
-    .info-aboutAS {
+    .main__info-aboutAs {}
+
+    .info-aboutAs {
         width: 333px;
-        height: 612px;
+        /* height: 500px; */
     }
 
-    .info-aboutAS__label-english {
+    .aboutAs__label-english {
         font-family: var(--font-family);
         font-weight: 400;
         font-size: 14px;
@@ -253,9 +164,11 @@ table {
         letter-spacing: 0.14em;
         text-transform: uppercase;
         color: #e6b939;
+        margin-bottom: 0px;
     }
 
-    .info-aboutAS__title {
+    .aboutAs__title {
+        margin: 0px;
         font-family: var(--second-family);
         font-weight: 400;
         font-size: 36px;
@@ -263,7 +176,7 @@ table {
         color: #575445;
     }
 
-    .info-aboutAS__text {
+    .aboutAs__text {
         font-family: var(--font-family);
         font-weight: 400;
         font-size: 14px;
@@ -271,24 +184,43 @@ table {
         color: #575445;
     }
 
+    .main__photo-aboutAs {}
+
     .photo-aboutAs {
         border-radius: 20px;
         width: 360px;
-        height: 285px;
+        /* height: 285px; */
     }
 
-    .photo-aboutAS__photo {
+    .photo-aboutAs__img {
+        margin-top: 5px;
         border-radius: 20px;
         width: 360px;
-        height: 285px;
+        height: 350px;
     }
 
-    .foto-aboutAS__ul {}
+    .photo-aboutAs__point {
+        position: relative;
+        top: -25px;
+        left: 130px;
+    }
 
-    .foto-aboutAS__circle {}
+    .photo-point {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 100%;
+    }
 
-    .foto-aboutAS__circle_select {
-        color: red;
+    .photo-point__in {
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #171717;
+    }
+
+    .photo-point__in-red {
+        background-color: red;
     }
 
 }
