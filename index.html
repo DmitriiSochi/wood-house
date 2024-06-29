@@ -11,7 +11,6 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     </style>
-    <script src="foto-gallery.js"></script>
 </head>
 
 <body>
@@ -65,7 +64,19 @@
         <section class="photo-aboutAs main__photo-aboutAs">
             <p class="aboutAs__label-english">OUR PHOTO.</p>
             <p class="aboutAs__title">Фотогалерея</p>
-            <img class="photo-aboutAs__img" src="img/отель.jpg" />
+            <div class="photo-wrapper">
+                <a id="prev"><img class="photo-aboutAs__arrow-right" src="img/turnLeft.png" alt="prev"></a>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/отель.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/IMG_20240308_151351_1.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/IMG_20240308_161801.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/IMG_20240308_161943.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/IMG_20240308_162042_1.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/IMG_20240308_162158_1.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/IMG_20240308_162211_1.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/living_room.jpg" /></div>
+                <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/IMG_20240519_113725.jpg" /></div>
+                <a id="next"><img class="photo-aboutAs__arrow-left" src="img/turnLeft.png" alt="prev"></a>
+            </div>
             <div class="photo-aboutAs__point">
                 <div class="photo-point">
                     <div class="photo-point__in photo-point__in-red"></div>
@@ -173,6 +184,7 @@
             <p class="footer__label">г.Сочи, сел.Казачий брод, ул. Краснофлотская д.57.</p>
         </div>
     </footer>
+    <script src="js/foto-gallery.js"></script>
 </body>
 
 </html>
