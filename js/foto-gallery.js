@@ -21,8 +21,6 @@ function currentSlide(n) {
 
 function showSlides(n) {
     let slides = document.getElementsByClassName("photo-aboutAs__wrap");
-    let icos = document.querySelectorAll("div.photo-aboutAs__point > div >.photo-point__in");
-    console.log(icos);
     if (n > slides.length) {
       slideIndex = 1;
     }
@@ -35,11 +33,6 @@ function showSlides(n) {
         slide.style.display = "none";
     }
     slides[slideIndex - 1].style.display = "block";    
-  
-    for (let ico of icos) {
-        ico.classList.add('photo-point__in');
-    } 
-    icos[slideIndex].classList.add('photo-point__in-red');    
 }
  var timer = 0;
  makeTimer(); //Создаем интервал 
