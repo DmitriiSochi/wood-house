@@ -21,6 +21,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
     let slides = document.getElementsByClassName("photo-aboutAs__wrap");
+    let fotoPoint = document.getElementsByClassName("photo-point__in");
+
     if (n > slides.length) {
       slideIndex = 1;
     }
@@ -41,5 +43,5 @@ function showSlides(n) {
     timer = setInterval(function(){
       slideIndex++;
       showSlides(slideIndex);
-    },5000);
+    },6000);
   }
