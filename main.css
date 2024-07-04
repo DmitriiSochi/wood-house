@@ -82,17 +82,17 @@ table {
 
     .header__img {
         width: 100%;
-        height: 300px;
+        height: 385px;
         border-radius: 30px;
         /* padding-left: 7px;
         padding-right: 7px; */
     }
 
     .header__form {
-        margin-top: -4px;
+        /* margin-top: -4px; */
         /* border-radius: 0 0 20px 20px; */
         width: 100%;
-        height: 235px;
+        /* height: 235px; */
         /* background: #ffffff; */
         text-align: center;
     }
@@ -175,6 +175,11 @@ table {
         width: 100%;
     }
 
+    .info-aboutAs__wraper {
+        background-color: white;
+        border-radius: 30px;
+    }
+
     .aboutAs__label-english {
         font-family: var(--font-family);
         font-weight: 400;
@@ -185,6 +190,7 @@ table {
         color: #e6b939;
         margin-bottom: 0px;
         margin-left: 10px;
+        padding-top: 5px;
     }
 
     .aboutAs__title {
@@ -205,6 +211,7 @@ table {
         color: #575445;
         margin-left: 10px;
         margin-right: 10px;
+        padding-bottom: 10px;
     }
 
     .main__photo-aboutAs {
@@ -215,11 +222,31 @@ table {
         border-radius: 20px;
     }
 
-    .photo-aboutAs__img {
-        margin-top: 5px;
-        border-radius: 20px;
+    .photo-aboutAs__wraper {
+        background-color: white;
+        border-radius: 30px;
+        height: 560px;
+        overflow: hidden;
+        border: 3px solid white;
+    }
+
+    .photo-wrapper {
+        margin-bottom: -15px;
+        /* padding: 5px; */
+    }
+
+    .photo-aboutAs__wrap {
         width: 100%;
-        height: 300px;
+        height: 100%;
+        /* overflow: hidden; */
+        /* min-width: 440px; */
+    }
+
+    .photo-aboutAs__img {
+        border-radius: 0 0 30px 30px;
+        /* width: 100%; */
+        min-width: 395px;
+        height: 480px;
     }
 
     .photo-aboutAs__arrow-right {
@@ -228,7 +255,7 @@ table {
 
     #prev {
         position: absolute;
-        top: 1190px;
+        top: 1380px;
         left: 12px;
         transform: rotate(180deg)
     }
@@ -239,7 +266,7 @@ table {
 
     #next {
         position: absolute;
-        top: 1190px;
+        top: 1380px;
         left: 350px;
 
     }
@@ -274,6 +301,11 @@ table {
         width: 100%;
     }
 
+    .more-aboutAs__wrapper {
+        border-radius: 30px;
+        background-color: white;
+    }
+
     .more-aboutAs__photo {
         width: 49%;
         border-radius: 20px;
@@ -284,9 +316,14 @@ table {
         height: 180px;
     }
 
+    .main__price-wrapper {
+        border-radius: 30px;
+        background-color: white;
+    }
+
     .price__table {
         background-color: #f0f0f0;
-        color: #e0e0e0;
+        color: #252525;
         height: 120px;
         border: 1px solid #dddddd;
         border-collapse: collapse;
@@ -295,14 +332,14 @@ table {
 
     .price__table-label {
         width: 16%;
-        background: #181818;
-        border: 1px solid #dddddd;
+        background: #ffffff;
+        border: 1px solid #181818;
     }
 
     .price__table-td {
         width: 16%;
-        background: #161616;
-        border: 1px solid #dddddd;
+        background: #ffffff;
+        border: 1px solid #1d1d1d;
     }
 
     .main__our-place {
