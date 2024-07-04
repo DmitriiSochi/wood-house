@@ -255,7 +255,7 @@ table {
 
     #prev {
         position: absolute;
-        top: 1380px;
+        top: 1460px;
         left: 12px;
         transform: rotate(180deg)
     }
@@ -266,8 +266,8 @@ table {
 
     #next {
         position: absolute;
-        top: 1380px;
-        left: 350px;
+        top: 1460px;
+        left: 360px;
 
     }
 
@@ -287,8 +287,8 @@ table {
     }
 
     .photo-point__in {
-        width: 10px;
-        height: 10px;
+        width: 14px;
+        height: 14px;
         border-radius: 10px;
         background-color: #ffffff;
     }
@@ -311,14 +311,29 @@ table {
         border-radius: 20px;
     }
 
+    .more-aboutAs__photo-serchR {
+        position: absolute;
+        top: 2121px;
+        left: 153px;
+    }
+
+    .more-aboutAs__photo-serchL {
+        position: absolute;
+        top: 2121px;
+        left: 352px;
+    }
+
     .maim__price {
         width: 100%;
         height: 180px;
+        margin-top: 15px;
     }
 
     .main__price-wrapper {
         border-radius: 30px;
         background-color: white;
+        height: 200px;
+        overflow: hidden;
     }
 
     .price__table {
@@ -344,11 +359,102 @@ table {
 
     .main__our-place {
         width: 100%;
+        margin-top: 35px;
+    }
+
+    .our-place__wrapper {
+        background-color: white;
+        border-radius: 30px;
+
     }
 
     .our-place__photo {
         width: 49%;
         border-radius: 20px;
+    }
+
+    .our-place__photo-serchR {
+        position: absolute;
+        top: 2707px;
+        left: 153px;
+
+    }
+
+    .our-place__photo-serchL {
+        position: absolute;
+        top: 2707px;
+        left: 353px;
+    }
+
+    .main-map {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .main-map__wrapper {
+        background-color: white;
+        border-radius: 30px;
+        height: 325px;
+        overflow: hidden;
+    }
+
+    .map__map-img {
+        width: 95%;
+        height: 230px;
+        background-color: #575445;
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+    .map__adrres {
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .main-map__WhatsApp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+
+    .main-map__Telegram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+
+    .main-map__phon {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 500;
+        margin: 15px;
+    }
+
+    .WhatsApp_img {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .Telegram_img {
+        width: 60px;
+        height: 60px;
     }
 
     .footer {
@@ -361,6 +467,7 @@ table {
         justify-content: flex-start;
         align-items: flex-end;
         margin-top: 10px;
+        border-radius: 30px;
     }
 
     .footer__r {
@@ -370,9 +477,12 @@ table {
 
     .footer__photo {
         position: absolute;
-        top: 262%;
+        top: 368%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 130px;
+        border-radius: 10px;
+        opacity: 0.9;
     }
 }
 
