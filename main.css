@@ -171,6 +171,17 @@ table {
         box-shadow: 0 0 10px rgba(4, 4, 4, 0.1);
     }
 
+    .checkForNomer__bottonD {
+        background: rgb(255, 255, 255);
+        width: 100%;
+        height: 56px;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 93% 0, 97% 28px, 93% 56px, 0 56px);
+        font-size: 22px;
+        text-align: center;
+        margin: 8px 0px 0 5px;
+    }
+
     .main__info-aboutAs {
         width: 100%;
     }
@@ -395,13 +406,13 @@ table {
     .main-map__wrapper {
         background-color: white;
         border-radius: 30px;
-        height: 325px;
+        height: 515px;
         overflow: hidden;
     }
 
     .map__map-img {
         width: 95%;
-        height: 230px;
+        height: 400px;
         background-color: #575445;
         margin: 10px;
         border-radius: 30px;
