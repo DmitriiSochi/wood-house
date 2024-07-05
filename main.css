@@ -99,7 +99,7 @@ table {
 
     .header-foto__ico {
         position: relative;
-        top: -260px;
+        top: -230px;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 115px;
