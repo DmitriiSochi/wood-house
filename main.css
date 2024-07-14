@@ -103,23 +103,28 @@ table {
 
 
     .sociall__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: 4px solid #aaa9a9;
         border-radius: 11px;
-        padding: 8px 16px;
-        width: 45px;
-        height: 35px;
+        /* padding-top: 5px; */
+        /* padding-bottom: 5px; */
+        width: 63px;
+        height: 36px;
         background: #f8f9fb;
         font-family: var(--font4);
         font-weight: 600;
-        font-size: 28px;
-        line-height: 133%;
+        font-size: 25px;
+        /* line-height: 133%; */
         color: #43475c;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .sociall__button_select {
-        border: 4px solid #52820e;
+        border: 4px solid #aaa9a9;
         background-color: #78BD15;
+        color: white;
     }
 
     .header__form {
@@ -153,7 +158,7 @@ table {
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
-        color: rgba(245, 245, 245, 0.8)
+        color: rgba(245, 245, 245, 0.8);
     }
 
     .checkForNomer__date {
@@ -170,6 +175,7 @@ table {
         font-size: 16px;
         line-height: 150%;
         color: rgba(18, 18, 18, 0.8);
+        box-shadow: 0 0 5px 0 #a0f428;
     }
 
     .checkForNomer__phone-namber {
@@ -186,6 +192,7 @@ table {
         font-size: 16px;
         line-height: 150%;
         color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 3px 0 #a0f428;
     }
 
     .checkForNomer__button {
@@ -203,17 +210,21 @@ table {
         line-height: 150%;
         color: rgba(0, 0, 0, 0.8);
         box-shadow: 0 0 10px rgba(4, 4, 4, 0.1);
+        box-shadow: 0 0 10px 0 #a0f428;
     }
 
     .checkForNomer__bottonD {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background: rgb(255, 255, 255);
         width: 100%;
         height: 56px;
         border-radius: 10px;
         clip-path: polygon(0 0, 93% 0, 97% 28px, 93% 56px, 0 56px);
-        font-size: 22px;
-        text-align: center;
+        font-size: 30px;
         margin: 8px 0px 0 5px;
+        box-shadow: 0 0 10px 0 #a0f428;
     }
 
     .main__info-aboutAs {
@@ -223,6 +234,7 @@ table {
     .info-aboutAs__wraper {
         background-color: white;
         border-radius: 30px;
+        padding-top: 7px;
     }
 
     .aboutAs__label-english {
@@ -236,6 +248,7 @@ table {
         margin-bottom: 0px;
         margin-left: 10px;
         padding-top: 5px;
+        margin-top: 0px;
     }
 
     .aboutAs__title {
@@ -270,7 +283,7 @@ table {
     .photo-aboutAs__wraper {
         background-color: white;
         border-radius: 30px;
-        height: 560px;
+        height: 549px;
         overflow: hidden;
         border: 3px solid white;
     }
@@ -332,14 +345,26 @@ table {
     }
 
     .photo-point__in {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 14px;
         height: 14px;
         border-radius: 10px;
         background-color: #ffffff;
+        box-shadow: 0 0 4px 0 rgba(160, 244, 40, 0.7);
     }
 
-    .photo-point__in-red {
-        background-color: red;
+    .photo-point__in-color {
+        display: none;
+    }
+
+    .photo-point__in-color_select {
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #78BD15;
     }
 
     .main__more-aboutAs {
@@ -349,6 +374,8 @@ table {
     .more-aboutAs__wrapper {
         border-radius: 30px;
         background-color: white;
+        padding-top: 10px;
+        margin-top: 12px;
     }
 
     .more-aboutAs__photo {
