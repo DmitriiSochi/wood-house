@@ -41,8 +41,8 @@ table {
 :root {
     /* Цвета */
     --system-color-bondiBlue: rgb(0 58 71);
-    --system-color-canaryYellow: rgb(255 239 0);
-    --system-color-caribbeanGreen: rgb(0 204 153);
+    --system-color-Green: #a0f428;
+    --system-color-background: rgb(14, 14, 14);
 
     /* Семейство шрифтов*/
     --font-family: "Poppins", sans-serif;
@@ -74,7 +74,7 @@ table {
 
 @media (max-width: 480px) {
     body {
-        background-color: #353535;
+        background-color: var(--system-color-background);
         margin-top: 7px;
         margin-left: 7px;
         margin-right: 7px;
@@ -123,7 +123,7 @@ table {
 
     .sociall__button_select {
         border: 4px solid #aaa9a9;
-        background-color: #78BD15;
+        background-color: var(--system-color-Green);
         color: white;
     }
 
