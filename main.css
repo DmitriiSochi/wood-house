@@ -183,34 +183,59 @@ table {
         border: none;
         border-radius: 8px;
         padding: 8px 16px;
-        width: 97%;
-        height: 40px;
+        width: 82%;
+        height: 100%;
         background: #fff;
-        margin-top: 6px;
+        /* margin-top: 6px; */
         font-family: var(--third-family);
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
         color: rgba(0, 0, 0, 0.8);
+        /* box-shadow: 0 0 3px 0 #a0f428; */
+    }
+    .checkForNomer__phone-namberDiv {
+        display: flex;
+        box-sizing: border-box;
+        width: 97%;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 8px;
+        /* padding: 8px 16px; */
+        margin-top: 6px;
+        margin-left: 5px;
         box-shadow: 0 0 3px 0 #a0f428;
     }
-
+    .checkForNomer__phone-namberDiv-green {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 100%;
+        background-color: var(--system-color-Green);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .checkForNomer__phone-namberDiv-green-img {
+        width: 28px;
+        height: auto;
+    }
     .checkForNomer__button {
         box-sizing: border-box;
         border: none;
         border-radius: 10px;
-        padding: 14px 24px;
-        width: 97%;
-        height: 55px;
+        /* padding: 14px 24px; */
+        width: 100%;
+        height: 100%;
         background: #fff;
-        margin-top: 6px;
+        /* margin-top: 6px; */
         font-family: var(--third-family);
-        font-weight: 800;
+        font-weight: 600;
         font-size: 20px;
         line-height: 150%;
         color: rgba(0, 0, 0, 0.8);
-        box-shadow: 0 0 10px rgba(4, 4, 4, 0.1);
-        box-shadow: 0 0 10px 0 #a0f428;
+        /* box-shadow: 0 0 10px rgba(4, 4, 4, 0.1); */
+        /* box-shadow: 0 0 10px 0 #a0f428; */
     }
 
     .checkForNomer__bottonD {
@@ -237,13 +262,14 @@ table {
         border-bottom-left-radius: 10px;
     }
     .checkForNomer__bottonD-box-href {
-        width: 100%;
+        width: calc(100% - 100px);
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .checkForNomer__bottonD-href {
         text-decoration: none;
+        color:#43475c;
     }
 
     .main__info-aboutAs {
