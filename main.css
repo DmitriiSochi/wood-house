@@ -215,7 +215,7 @@ table {
 
     .checkForNomer__bottonD {
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         background: rgb(255, 255, 255);
         width: 100%;
@@ -225,6 +225,25 @@ table {
         font-size: 30px;
         margin: 8px 0px 0 5px;
         box-shadow: 0 0 10px 0 #a0f428;
+    }
+    .checkForNomer__bottonD-green {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 100%;
+        background-color: var(--system-color-Green);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .checkForNomer__bottonD-box-href {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .checkForNomer__bottonD-href {
+        text-decoration: none;
     }
 
     .main__info-aboutAs {
