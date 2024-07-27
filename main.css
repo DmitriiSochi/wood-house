@@ -74,6 +74,7 @@ table {
 
 @media (max-width: 480px) {
     body {
+        width: 100%;
         background-color: var(--system-color-background);
         margin-top: 7px;
         margin-left: 7px;
@@ -289,7 +290,7 @@ table {
         line-height: 140%;
         letter-spacing: 0.14em;
         text-transform: uppercase;
-        color: #e6b939;
+        color: var(--system-color-Green);
         margin-bottom: 0px;
         margin-left: 10px;
         padding-top: 5px;
@@ -359,8 +360,8 @@ table {
     #prev {
         position: absolute;
         top: 1460px;
-        left: 12px;
-        transform: rotate(180deg)
+        left: 7%;
+        transform: rotate(180deg);
     }
 
     .photo-aboutAs__arrow-left {
@@ -370,7 +371,7 @@ table {
     #next {
         position: absolute;
         top: 1460px;
-        left: 360px;
+        left: calc(100% - 14%);
 
     }
 
@@ -431,13 +432,13 @@ table {
     .more-aboutAs__photo-serchR {
         position: absolute;
         top: 2121px;
-        left: 153px;
+        left: 14px;
     }
 
     .more-aboutAs__photo-serchL {
         position: absolute;
         top: 2121px;
-        left: 352px;
+        left: calc(100% - 14%);
     }
 
     .maim__price {
@@ -500,7 +501,7 @@ table {
     .our-place__photo-serchL {
         position: absolute;
         top: 2707px;
-        left: 353px;
+        left: calc(100% - 14%);
     }
 
     .main-map {
