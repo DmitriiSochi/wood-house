@@ -1,11 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
 </head>
+
 <body>
-    
+    <header class="header">
+        <img class="header__img" src="img/отель.jpg">
+        <div class="header__sociall sociall">
+            <div class="sociall__button sociall__button_select">RUS</div>
+            <div class="sociall__button ">ENG</div>
+        </div>
+        <form class="header__form checkForNomer">
+            <!-- <p class="checkForNomer__text-main">Узайте свободен ли домик</p> -->
+            <!-- <label class="checkForNomer__label" for="checkForNomer__dete-in">C :</label> -->
+            <input class="checkForNomer__date" type="date" id="checkForNomer__dete-in" name="trip-start"
+                min="2024-01-01" max="2025-12-31" />
+            <br>
+            <!-- <label class="checkForNomer__label" for="checkForNomer__dete-out">По:</label> -->
+            <input class="checkForNomer__date" type="date" id="checkForNomer__dete-out" name="trip-start"
+                min="2024-01-01" max="2025-12-31" />
+            <div class="checkForNomer__phone-namberDiv"><div class="checkForNomer__phone-namberDiv-green"><img class="checkForNomer__phone-namberDiv-green-img" src="img/ico_telefon.png"></div><input class="checkForNomer__phone-namber" type="text" id="phone-namber" placeholder="Ваш номер для связи"></div>
+            <!-- <input class="checkForNomer__phone-namber" type="text" id="phone-namber" placeholder="Ваш номер для связи"> -->
+            
+            <div class="checkForNomer__bottonD"><div class="checkForNomer__bottonD-green"><img class="" src="img/pismo.png" ></div><div class="checkForNomer__bottonD-box-href"><input class="checkForNomer__button" type="button" value="Отправить запрос" /></div></div>
+            <!-- <input class="checkForNomer__button" type="button" value="Отправить запрос" /> -->
+        </form>
+        <div class="header-foto__ico">
+            <div class="photo-point">
+                <div class="photo-point__in"><div class="photo-point__in-color "></div></div>
+                <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                <div class="photo-point__in"><div class="photo-point__in-color photo-point__in-color_select"></div></div>
+                <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+            </div>
+        </div>
+        
+    </header>
+    <main class="main">
+        <section class="info-aboutAs main__info-aboutAs">
+            <div class="info-aboutAs__wraper">
+                <p class="aboutAs__label-english">who are we?</p>
+                <p class="aboutAs__title">О нас.</p>
+                <p class="aboutAs__text">Уважаемые гости предлогаем Вам наш двухместный гостевой дом. Наш дом
+                    расположен в
+                    15км от центра Адлера, между Красной поляной и Центральной частью Адлера., в сел.Казачий брод по
+                    улице
+                    Краснофлотская д.57. Расстояние до моря 15км это 40 минут на транспорте. В 2км. от дома находится
+                    Скайпарк. Мы
+                    предоставляем Гостевой дом для временного проживания. В гостевом доме есть санузел, холодильник,
+                    телевизор,
+                    кондиционер, стиральная машина. Для желающих готовить пищу самим, есть оборудованная кухня. В
+                    дневное и
+                    вечернее время можно пользоваться мангалом и беседкой.</p>
+            </div>
+            <div class="info-aboutAs__wraper">
+                <p class="aboutAs__title" style="font-size: 26px;">Условия бронирования</p>
+                <p class="aboutAs__text">Возможные скидки и условия бронирования оговариваются по тел.:
+                    +7-918-302-07-08. WhatsApp,
+                    Telegram.Задаток
+                    в размере первых суток проживания действует только на оговоренный период проживания.В случае отказа
+                    от
+                    приезда задаток не возвращается. Расчет по прибытии, независимо от времени приезда.После оплаты
+                    задатка
+                    цены
+                    на бронь не меняются.Расчетный час с 11:00ч. Время приезда и отъезда оговариваются заранее.
+                    Дополнительное
+                    место 500р. Реквизиты карты МИР (Т-банк) 2200 7004 3754 9081 Бубенин Дмитрий Калукович.</p>
+            </div>
+        </section>
+        <section class="photo-aboutAs main__photo-aboutAs">
+            <div class="photo-aboutAs__wraper">
+                <p class="aboutAs__label-english">OUR PHOTO.</p>
+                <p class="aboutAs__title">Фотогалерея</p>
+                <div class="photo-wrapper">
+                    <a id="prev"><img class="photo-aboutAs__arrow-right" src="img/strelka_right.png" alt="prev"></a>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/отель.jpg" /></div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img"
+                            src="img/IMG_20240308_151351_1.jpg" />
+                    </div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img"
+                            src="img/IMG_20240308_161801.jpg" />
+                    </div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img"
+                            src="img/IMG_20240308_161943.jpg" />
+                    </div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img"
+                            src="img/IMG_20240308_162042_1.jpg" />
+                    </div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img"
+                            src="img/IMG_20240308_162158_1.jpg" />
+                    </div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img"
+                            src="img/IMG_20240308_162211_1.jpg" />
+                    </div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img" src="img/living_room.jpg" /></div>
+                    <div class="photo-aboutAs__wrap"><img class="photo-aboutAs__img"
+                            src="img/IMG_20240519_113725.jpg" />
+                    </div>
+                    <a id="next"><img class="photo-aboutAs__arrow-left" src="img/strelka_right.png" alt="prev"></a>
+                </div>
+                <div class="photo-aboutAs__point">
+                    <div class="photo-point">
+                        <div class="photo-point__in"><div class="photo-point__in-color "></div></div>
+                        <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                        <div class="photo-point__in"><div class="photo-point__in-color photo-point__in-color_select"></div></div>
+                        <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                        <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                        <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                        <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                        <div class="photo-point__in"><div class="photo-point__in-color"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="more-aboutAs main__more-aboutAs">
+            <div class="more-aboutAs__wrapper">
+                <p class="aboutAs__label-english">more info about us.</p>
+                <p class="aboutAs__title">Побольше о нас.</p>
+                <p class="aboutAs__text">Гостевой дом представляют собой небольшой одноэтажный дом (30м2) с
+                    лестницей на входе. Состоит из спальни, кухни гостиной и санузла. В кухни гостиной есть телевизор,
+                    холодильник, кондиционер, гладильная доска с утюгом, в кухонной зоне есть электрический чайник,
+                    микроволновка, холодильник и посуда, в санузле есть стиральная машина и фен (полотенце, мыло).
+                    Гостевой
+                    дом охвачен сетью WiFi. Имеется открытая веранда с видом на Кавказские горы.</p>
+                <img class="more-aboutAs__photo" src="img/отель.jpg">
+                <img class="more-aboutAs__photo" src="img/отель.jpg">
+                <img class="more-aboutAs__photo-serchR" src="img/Увеличить.png">
+                <img class="more-aboutAs__photo-serchL" src="img/Увеличить.png">
+            </div>
+        </section>
+        <section class="price maim__price">
+            <div class="main__price-wrapper">
+                <p class="aboutAs__label-english">our price.</p>
+                <p class="aboutAs__title">Наши цены.</p>
+                <table class="price__table">
+                    <tr class="price__table-tr">
+                        <th class="price__table-label">Январь - Май</th>
+                        <th class="price__table-label">Июнь</th>
+                        <th class="price__table-label">Июль</th>
+                        <th class="price__table-label">Август</th>
+                        <th class="price__table-label">Сентябрь</th>
+                        <th class="price__table-label">Октябрь-Декабрь</th>
+                    </tr>
+                    <tr>
+                        <td class="price__table-td">2 500</td>
+                        <td class="price__table-td">3 000</td>
+                        <td class="price__table-td">3 500</td>
+                        <td class="price__table-td">4 000</td>
+                        <td class="price__table-td">3 500</td>
+                        <td class="price__table-td">2 500</td>
+                    </tr>
+                    <tr price__table-tr>
+                        <td class="price__table-td" colspan="6">Дополнительное место 500руб</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="our-place main__our-place">
+            <div class="our-place__wrapper">
+                <p class="aboutAs__label-english">our place.</p>
+                <p class="aboutAs__title">О территории.</p>
+                <p class="aboutAs__text">Территория гостевого дома предусматривает газоны и тропинки. Для снятия
+                    усталости воспользуйтесь беседкой, где можно посидеть и попить чай. Если проголодаетесь, приготовьте
+                    шашлык самостоятельно или иные блюда на костре.
+                    Преддомовая территория оборудована для парковки частного транспорта.</p>
+                <img class="our-place__photo" src="img/отель.jpg">
+                <img class="our-place__photo" src="img/отель.jpg">
+                <img class="our-place__photo-serchR" src="img/Увеличить.png">
+                <img class="our-place__photo-serchL" src="img/Увеличить.png">
+
+            </div>
+        </section>
+        <section class="main-map">
+            <div class="main-map__wrapper map">
+                <div class="map__map-img"><div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/239/sochi/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Сочи</a><a href="https://yandex.ru/maps/239/sochi/house/krasnoflotskaya_ulitsa_57/Z0AYfw9kTEwAQFppfXlwdnRlbQ==/?ll=39.984897%2C43.517843&utm_medium=mapframe&utm_source=maps&z=19.12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.ru/map-widget/v1/?ll=39.984897%2C43.517843&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozNzQzMjEzNDA2EqgB0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwg0LPQvtGA0L7QtNGB0LrQvtC5INC-0LrRgNGD0LMg0KHQvtGH0LgsINGB0LXQu9C-INCa0LDQt9Cw0YfQuNC5INCR0YDQvtC0LCDQmtGA0LDRgdC90L7RhNC70L7RgtGB0LrQsNGPINGD0LvQuNGG0LAsIDU3IgoNOfAfQhVNEi5C&z=19.12" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div></div>
+                <p class="map__adrres">Россия, г.Сочи, ул.Краснофлотская д.57</p>
+            </div>
+            <div class="social">
+                <div class="main-map__WhatsApp"><img class="WhatsApp_img" src="img/whacapp.png"></div>
+                <div class="main-map__Telegram"><img class="Telegram_img" src="img/tviter.png"></div>
+            </div>
+            <p class="main-map__phon">+7 918 3020708</p>
+        </section>
+        <!-- <section class="hikes main__hikes">
+            <p class="aboutAs__label-english">hikes.</p>
+            <p class="aboutAs__title">Активный отдых.</p>
+            <p class="aboutAs__text">Любителям активного отдыха могу организовать поход по следующим маршрутам.</p>
+            <p class="hikes__tur">Карниз Бзерпи</p>
+            <p class="hikes__tur">Водопад Кейва</p>
+            <p class="hikes__tur">Водопад Хрустальный</p>
+            <img class="hikes__photo" src="img/отель.jpg">
+            <div class="hikes__photo-point">
+                <div class="photo-point">
+                    <div class="photo-point__in photo-point__in-red"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                    <div class="photo-point__in"></div>
+                </div>
+            </div>
+            <p class="hikes__about" Приглашаю вас отправиться в поход к одному из самых живописных мест в окрестностях
+                Красной поляны— Бзерпинскому карнизу и истоку реки Бзерпь. Мы полюбуемся водопадом, бегущим вниз по
+                скалам, а также сможем дойти до озера Малого или подняться на пик Бзерпи высотой около 2,5 тысяч метров.
+                Высота — 2130 м над уровнем моря Продолжительность маршрута — 3 часаДлина маршрута — 4,4 км Набор высоты
+                — 530 м>
+            </p>
+            <img class="hikes__ico-price" src="img/IMAGE.png">
+            <p class="price__hike">Стоимость тура 10 000р</p>
+            <p class="price__hike-lable">за человека</p>
+        </section> -->
+    </main>
+    <footer class="footer">
+        <img class="footer__photo" src="img/logo.jpg">
+        <div class="footer__r">
+            <p class="footer__label">О нас</p>
+            <p class="footer__label">Описание</p>
+            <p class="footer__label">Территория</p>
+            <p class="footer__label">Активный отдых</p>
+        </div>
+        <div class="footer__r">
+            <p class="footer__label">Контактный телефон</p>
+            <p class="footer__label">+7 918 302 07 08</p>
+            <p class="footer__label">Дмитрий</p>
+            <p class="footer__label">г.Сочи, сел.Казачий брод, ул. Краснофлотская д.57.</p>
+        </div>
+    </footer>
+    <script src="js/foto-gallery.js"></script>
 </body>
+
 </html>
